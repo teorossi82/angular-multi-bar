@@ -1,0 +1,30 @@
+{
+  "name": "angular-multi-bar",
+  "version": "0.4.0",
+  "authors": [
+    "Matteo Rossi <teorossi82@yahoo.it>"
+  ],
+  "description": "angular module",
+  "main": [
+    "dist/angular-multi-bar.js",
+    "dist/angular-multi-bar.css"
+  ],
+  "keywords": [
+    "bar",
+    "multi",
+    "bar",
+    "progressbar",
+    "marker"
+  ],
+  "dependencies": {
+    "angular": "1.2.x || 1.3.x || 1.4.x"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

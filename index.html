@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Multi Bar</title>
+        
+        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="dist/angular-multi-bar.css" />
+        <script type="text/javascript" src="dist/angular-multi-bar.js"></script>
+        
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body ng-controller="appController">
+        <angular-multi-bar ng-repeat="multiBar in multiBars" options="multiBar.multiBarOptions" value="multiBar.multiBarValue"></angular-multi-bar>
+        <div ng-click="changeOptions()">Cambia opzioni</div>
+        <div ng-click="changeValues()">Cambia valore</div>
+    </body>
+</html>
